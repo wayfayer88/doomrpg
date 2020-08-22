@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DooM_RPG</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background: black;">
+	<div class="menu">
+		<div class="menu-bg">
+			<div style="padding-top: 35px;">
+		        <img src="menu.jpg">
+		    </div>
+		</div>
+		<button class="start" style="width: 200px; height: 75px; border: 2px solid black; padding-top: 10px; background: darkgreen;"><h1><span class="menuTextLeft">Sta</span><span class="menuTextRight">rT</span></h1></button>
+	</div>
+	<div class="main d-none">
+		<img class="bg" src="maps/0_main/bg.png">
+		<img class="doomguy" src="maps/0_main/doomguy.png">
+		<div class="loc1"><h1 style="padding-left: 190px; padding-top: 40px;"><span class="titleRight">1</span><span class="titleLeft">.</span><span class="titleLeft">Han</span><span class="titleRight">gaR</span></h1></div>
+		<div class="loc2"><h1 style="padding-left: 150px; padding-top: 20px;"><span class="titleRight">2</span><span class="titleLeft">.</span><span class="titleLeft">Nuclear </span><span class="titleRight">planT</span></h1></div>
+		<div class="loc3"><h1 style="padding-left: 10px; padding-top: 25px;"><span class="titleRight">3</span><span class="titleLeft">.</span><span class="titleLeft">Toxin </span><span class="titleRight">refinerY</span></h1></div>
+		<div class="loc4"><h1 style="padding-left: 55px; padding-top: 45px;"><span class="titleRight">4</span><span class="titleLeft">.</span><span class="titleLeft">Command </span><span class="titleRight">controL</span></h1></div>
+		<div class="loc5"><h1 style="padding-left: 88px; padding-top: 40px;"><span class="titleRight">5</span><span class="titleLeft">.</span><span class="titleLeft">Phobos </span><span class="titleRight">laB</span></h1></div>
+		<div class="loc6"><h1 style="padding-left: 50px; padding-top: 35px;"><span class="titleRight">6</span><span class="titleLeft">.</span><span class="titleLeft">Central </span><span class="titleRight">processinG</span></h1></div>
+		<div class="loc7"><h1 style="padding-left: 5px; padding-top: 60px;"><span class="titleRight">7</span><span class="titleLeft">.</span><span class="titleLeft">Computer </span><span class="titleRight">statioN</span></h1></div>
+		<div class="loc8"><h1 style="padding-left: 10px; padding-top: 20px;"><span class="titleRight">8</span><span class="titleLeft">.</span><span class="titleLeft">Phobos </span><span class="titleRight">anomalY</span></h1></div>
+	</div>
+	<div class="map">
+		<img class="soldier1" src="maps/1_hangar/demons/soldier1.png">
+		<img class="soldier2" src="maps/1_hangar/demons/soldier1.png">
+		<img class="weapon" src="hud/weapons/pistol/pistol1.png">
+		<img class="weapon2" src="hud/weapons/shotgun/shotgun1.png">
+		<div class="hud">
+			<div class="Health indicators"><h1 style="color: red;"><span class="health indNum"></span></h1><h1 style="color: white;" class="hudTxt">HEALTH</h1></div>
+			<div class="Armor indicators"><h1 style="color: red;"><span class="armor indNum"></span></h1><h1 style="color: white;" class="hudTxt">ARMOR</h1></div>
+			<div class="Face indicators"><img class="face faceImg" src="hud/faces/face1.png"></div>
+			<div class="Arms indicators">
+				<div class="d-flex">
+					<div class="pistol armsList"><h1 class="arm1 armsTxt">1</h1></div>
+					<div class="shotgun armsList"><h1 class="arm2 armsTxt">2</h1></div>
+					<div class="chaingun armsList"><h1 class="arm3 armsTxt">3</h1></div>
+				</div>
+				<div class="d-flex">
+					<div class="plasmaGun armsList"><h1 class="arm4 armsTxt">4</h1></div>
+					<div class="rocketLauncher armsList"><h1 class="arm5 armsTxt">5</h1></div>
+					<div class="BFG armsList"><h1 class="arm6 armsTxt">6</h1></div>
+				</div>
+			</div>
+			<div class="Ammo indicators"><h1 style="color: red;"><span class="ammo indNum"></span></h1><h1 style="color: white;" class="hudTxt">AMMO</h1></div>
+		</div>
+		<img class="shotgunSprite" src="hud/weapons/shotgun/shotgunsprite.png">
+		<div class="hit"></div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+@font-face {
+	font-family: AmazDooMLeft;
+	src: url(font/AmazDooMLeft.ttf);
+}
+@font-face {
+	font-family: AmazDooMLeft2;
+	src: url(font/AmazDooMLeft2.ttf);
+}
+@font-face {
+	font-family: AmazDooMLeftOutline;
+	src: url(font/AmazDooMLeftOutline.ttf);
+}
+@font-face {
+	font-family: AmazDooMRight;
+	src: url(font/AmazDooMRight.ttf);
+}
+@font-face {
+	font-family: AmazDooMRight2;
+	src: url(font/AmazDooMRight2.ttf);
+}
+@font-face {
+	font-family: AmazDooMRightOutline;
+	src: url(font/AmazDooMRightOutline.ttf);
+}
+@font-face {
+	font-family: SquareFont;
+	src: url(font/SquareFont.otf);
+}
+.bg {
+	height: 1075px;
+	width: 1920px;
+}
+.menu-bg {
+	height: 1075px;
+	text-align: center;
+}
+.start {
+	position: absolute;
+	top: 85%;
+	left: 44%;
+}
+.menuTextLeft {
+	font-family: AmazDooMLeft;
+	font-size: 45px;
+}
+.menuTextRight {
+	font-family: AmazDooMRight;
+	font-size: 45px;
+}
+.d-none {
+	display: none;
+}
+.d-flex {
+	display: flex;
+}
+.map {
+	height: 1075px;
+	width: 1920px;
+	background-image: url(maps/1_hangar/bg.png);
+	background-size: 100% 100%;
+	display: none;
+}
+.doomguy {
+	width: 125px;
+	position: absolute;
+	transition: 1s;
+	top: 75%;
+	left: 75%;
+}
+.loc1 {
+	height: 100px;
+	width: 400px;
+	background: none;
+	position: absolute;
+	top: 82%;
+	left: 45%;
+	opacity: 0.3;
+}
+.loc2 {
+	height: 80px;
+	width: 400px;
+	background: none;
+	position: absolute;
+	top: 69%;
+	left: 34%;
+	opacity: 0.3;
+	display: none;
+}
+.loc3 {
+	height: 90px;
+	width: 200px;
+	background: none;
+	position: absolute;
+	top: 58%;
+	left: 17%;
+	opacity: 0.3;
+	display: none;
+}
+.loc4 {
+	height: 110px;
+	width: 310px;
+	background: none;
+	position: absolute;
+	top: 48%;
+	left: 63%;
+	opacity: 0.3;
+	display: none;
+}
+.loc5 {
+	height: 120px;
+	width: 300px;
+	background: none;
+	position: absolute;
+	top: 41%;
+	left: 28.5%;
+	opacity: 0.3;
+	display: none;
+}
+.loc6 {
+	height: 100px;
+	width: 300px;
+	background: none;
+	position: absolute;
+	top: 22%;
+	left: 47%;
+	opacity: 0.3;
+	display: none;
+}
+.loc7 {
+	height: 200px;
+	width: 120px;
+	background: none;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	opacity: 0.3;
+	display: none;
+}
+.loc8 {
+	height: 100px;
+	width: 100px;
+	background: none;
+	position: absolute;
+	top: 10%;
+	left: 39.5%;
+	opacity: 0.3;
+	display: none;
+}
+.titleLeft {
+	font-family: AmazDooMLeftOutline;
+	color: white;
+	font-size: 35px;
+}
+.titleRight {
+	font-family: AmazDooMRightOutline;
+	color: white;
+	font-size: 35px;
+}
+.hud {
+	height: 200px;
+	width: 1200px;
+	background: #212121;
+	position: absolute;
+	top: 875px;
+	left: 360px;
+	border: 2px solid black;
+	display: flex;
+}
+.indicators {
+	height: 190px;
+	width: 234px;
+	background: #545454;
+	margin-top: 3.25px;
+	margin-left: 1.5px;
+	border: 2px solid black;
+}
+.hudTxt {
+	font-family: SquareFont;
+	font-size: 50px;
+	margin-left: 30px;
+}
+.indNum {
+	font-family: SquareFont;
+	font-size: 95px;
+	margin-left: 45px;
+}
+.faceImg {
+	width: 125px;
+	margin-top: 20px;
+	margin-left: 58px;
+}
+.armsList {
+	height: 87.5px;
+	width: 71.3333333px;
+	background: #636363;
+	margin-top: 3.5px;
+	margin-left: 3.5px;
+	border: 1px solid black;
+}
+.soldier1 {
+	height: 100px;
+	width: 50px;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transition: 0.1s;
+}
+.soldier2 {
+	width: 50px;
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	transition: 0.1s;
+}
+.weapon {
+	height: 200px;
+	width: 150px;
+	position: absolute;
+	top: 63%;
+	left: 46%;
+}
+.weapon2 {
+	height: 200px;
+	width: 150px;
+	position: absolute;
+	top: 63%;
+	left: 46%;
+	display: none;
+}
+.hit {
+	height: 1075px;
+	width: 1920px;
+	background: red;
+	position: absolute;
+	display: none;
+	opacity: 0.1;
+	top: 0px;
+	left: 0px;
+}
+.armsTxt {
+	margin-top: 20px;
+	margin-left: 30px;
+	font-family: SquareFont;
+	font-size: 25px;
+}
+.shotgunSprite {
+	position: absolute;
+	top: 55%;
+	left: 50%
+}
