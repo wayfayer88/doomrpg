@@ -1,12 +1,12 @@
 let start = document.querySelector('.start')
 start.onclick = function() {
-	/*let e1m1 = function() {
+	let e1m1 = function() {
         var audio = new Audio()
         audio.src = 'sounds/e1m1.mp3'
         audio.autoplay = true
         audio.volume = 0.1
     }
-	e1m1()*/
+	e1m1()
 	let menu = document.querySelector('.menu')
 	menu.style.display = 'none'
 	let main = document.querySelector('.main')
